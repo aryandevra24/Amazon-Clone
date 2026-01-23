@@ -1,4 +1,4 @@
-############         Optimizef for 2048 × 1152 resolution/screen-size          ############
+############         Optimized for 2048 × 1152 resolution/screen-size          ############
 
 
 # Amazon Clone 🛒
