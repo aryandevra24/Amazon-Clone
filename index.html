@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon (Clone)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Bokehlicia-Pacifica-Amazon.256.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+
+            <div class="nav-logo border">
+                <div id="logo">
+                    <a href=""></a>
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p id="loc-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </p>
+                <span class="loc-text">
+                    <p class="loc-text-1">
+                        Deliver to
+                    </p>
+                    <p class="loc-text-2">
+                        India
+                    </p>
+                </span>
+            </div>
+
+            <div class="nav-search">
+                <select name="category" id="category-select">
+                    <option value="All">All</option>
+                    <option value="Men">Men</option>
+                    <option value="Woman">Women</option>
+                    <option value="Kids">Kids</option>
+                </select>
+
+                <input type="text" name="query" id="search-box" placeholder="Search Amazon">
+
+                <div id="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="lang border">
+                <img src="images/united-states-of-america.png" alt="flag" width="21px">
+                <select name="lang-select" id="lang-select" style="cursor:default">
+                    <option value="EN">EN</option>
+                    <option value="HI">HI</option>
+                </select>
+            </div>
+
+            <div class="nav-login border">
+                <p id="line-1">Hello, sign in</p>
+                <p id="line-2">Account &amp; Lists</p>
+            </div>
+
+            <div class="nav-order border">
+                <p id="return">Returns</p>
+                <p id="order">&amp; Orders</p>
+            </div>
+
+            <div class="cart border">
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <p>Cart</p>
+            </div>
+
+        </div>
+        </hr>
+
+        <div class="nav-category">
+
+            <div class="nav-menu border">
+                <i class="fa-solid fa-bars"></i>
+                <p>All</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Today's Deal</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Prime Video</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Registry</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Gift Cards</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Customer Service</p>
+            </div>
+
+            <div class="cat-item border">
+                <p>Sell</p>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="hero-section">
+
+    </div>
+
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="header">
+                <h2>Get your game on</h2>
+            </div>
+            <div class="box-image-1">
+                <img src="images/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg" alt="">
+            </div>
+            <div>
+                <a href="#">Shop gaming</a>
+            </div>
+
+        </div>
+
+        <div class="box2 box">
+            <h2>Shop for your home essentials</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/2.png" alt="">
+                    <p>Cleaning tool</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/3.png" alt="">
+                    <p>Home storage</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/4.png" alt="">
+                    <p>Home decor</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/5.png" alt="">
+                    <p>Bedding</p>
+                </div>
+            </div>
+            <a href="#">Discover more in Home</a>
+        </div>
+
+        <div class="box3 box">
+            <h2>New home arrivals under $50</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/6.png" alt="">
+                    <p>Cleaning tool</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/7.png" alt="">
+                    <p>Home storage</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/8.png" alt="">
+                    <p>Home decor</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/9.png" alt="">
+                    <p>Bedding</p>
+                </div>
+            </div>
+            <a href="#">Shop the latest from Home</a>
+        </div>
+
+        <div class="box4 box">
+            <h2>Top categories in Kitchen appliances</h2>
+
+            <div class="box-image-4-sp">
+                <div class="box-image-4-li-sp-b">
+                    <img src="images/10.png" alt="">
+                    <p>Cooker</p>
+                </div>
+
+                <div class="box-image-4-row">
+                    <div class="box-image-4-li-sp-s">
+                        <img src="images/11.png" alt="">
+                        <p>Coffee</p>
+                    </div>
+
+                    <div class="box-image-4-li-sp-s">
+                        <img src="images/12.png" alt="">
+                        <p>Pots and Pans</p>
+                    </div>
+
+                    <div class="box-image-4-li-sp-s">
+                        <img src="images/13.png" alt="">
+                        <p>Kettles</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Explore all products in Kitchen</a>
+        </div>
+
+    </div>
+
+    <div class="shop-section-2">
+        <div class="box5 box">
+            <h2>Shop Fashion for less</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/14.png" alt="">
+                    <p>Jeans under $50</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/15.png" alt="">
+                    <p>Tops under $20</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/16.png" alt="">
+                    <p>Dresses under $30</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/17.png" alt="">
+                    <p>Shoes under $50</p>
+                </div>
+            </div>
+            <a href="#">See all deals</a>
+        </div>
+
+        <div class="box6 box">
+            <h2>Fashion trends you like</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/18.png" alt="">
+                    <p>Dresses</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/19.png" alt="">
+                    <p>Knits</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/20.png" alt="">
+                    <p>Jackets</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/21.png" alt="">
+                    <p>Jewelry</p>
+                </div>
+            </div>
+            <a href="#">Explore more</a>
+        </div>
+
+        <div class="box7 box">
+            <h2>Home upgrades under USD 50</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/22.png" alt="">
+                    <p>Dinnerware</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/23.png" alt="">
+                    <p>Home decor</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/24.png" alt="">
+                    <p>Kitchen</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/25.png" alt="">
+                    <p>Storage</p>
+                </div>
+            </div>
+            <a href="#">Score New Year deals</a>
+        </div>
+
+        <div class="box8 box">
+            <h2>Easy updates for elevated spaces</h2>
+            <div class="box-image-4">
+                <div class="box-image-4-li">
+                    <img src="images/26.png" alt="">
+                    <p>Baskets &amp; hampers</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/27.png" alt="">
+                    <p>Hardware</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/28.png" alt="">
+                    <p>Accent furniture</p>
+                </div>
+                <div class="box-image-4-li">
+                    <img src="images/29.png" alt="">
+                    <p>Wallpaper &amp; paint</p>
+                </div>
+            </div>
+            <a href="#">Shop home products</a>
+        </div>
+
+    </div>
+
+    <div class="carousel-wrapper">
+        <h2>Best Sellers</h2>
+
+        <div class="carousel" id="carousel">
+            <img src="images/img1.jpg" alt="">
+            <img src="images/img2.jpg" alt="">
+            <img src="images/img3.jpg" alt="">
+            <img src="images/img4.jpg" alt="">
+            <img src="images/img5.jpg" alt="">
+            <img src="images/img6.jpg" alt="">
+            <img src="images/img7.jpg" alt="">
+            <img src="images/img8.jpg" alt="">
+        </div>
+
+    </div>
+    </div>
+
+    <div class="signin-reminder">
+        <hr>
+        <div class="sigin-bottom-text">
+            <h2 id="recom">See personalized recommendations</h2>
+            <p>Sign In</p>
+            <div class="new">New customer? <a href="#">Start here.</a></div>
+        </div>
+        <hr>
+    </div>
+
+    <footer>
+        <a href="#logo" id="footer-1">Back to top</a>
+
+        <div id="footer-2">
+            <div class="links">
+                <div class="foot-head">
+                    Get to Know Us
+                </div>
+                <div>
+                    <a href="#">Carrers</a>
+                    <a href="#">Blog</a>
+                    <a href="#">About Amazon</a>
+                    <a href="#">Investor Relations</a>
+                    <a href="#">Amazon Devices</a>
+                    <a href="#">Amazon Science</a>
+                </div>
+            </div>
+
+            <div class="gap"></div>
+
+            <div class="links">
+                <div class="foot-head">
+                    Make Money with Us
+                </div>
+                <div>
+                    <a href="#">Sell products on Amazon</a>
+                    <a href="#">Sell on Amazon Business</a>
+                    <a href="#">Sell apps on Amazon</a>
+                    <a href="#">Become an Affiliate</a>
+                    <a href="#">Advertise Your Products</a>
+                    <a href="#">Self-Publish with Us</a>
+                    <a href="#">Host an Amazon Hub</a>
+                    <a href="#">&gt;
+                        See More Make Money with Us</a>
+                </div>
+            </div>
+
+            <div class="gap"></div>
+
+            <div class="links">
+                <div class="foot-head">
+                    Amazon Payment Products
+                </div>
+                <div>
+                    <a href="#">Amazon Business Card</a>
+                    <a href="#">Shop with Points</a>
+                    <a href="#">Reload Your Balance</a>
+                    <a href="#">Amazon Currency Converter</a>
+                </div>
+            </div>
+
+            <div class="gap"></div>
+
+            <div class="links">
+                <div class="foot-head">
+                    Let Us Help You
+                </div>
+                <div>
+                    <a href="#">Amazon and COVID-19</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Shipping Rates & Policies</a>
+                    <a href="#">Returns & Replacements</a>
+                    <a href="#">Manage Your Content and Devices</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+        </div>
+
+        <hr color="#3A4553">
+
+        <div class="footer-3">
+            <img src="images/amazon_logo.png" alt="" height="68px" ;>
+
+            <div class="txt">
+                <div class="foot-3"> <i class="fa-solid fa-globe"></i>
+                    <select name="footer-lang" id="footer-lang">
+                        <option value="en">English</option>
+                        <option value="hi">Hindi</option>
+                    </select>
+                </div>
+
+                <div class="foot-3">
+                    <select name="footer-curr" id="footer-curr">
+                        <option value="inr">₹ INR - Indian Rupee</option>
+                        <option value="usd">$ USD - US Dollar</option>
+                    </select>
+                </div>
+
+                <div class="foot-3">
+                    <select name="footer-region" id="footer-region">
+                        <option value="in">India
+                        </option>
+                        <option value="us">
+                            America
+                        </option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-4">
+            <div class="line-1">
+                <a href="#">Conditions of Use</a><a href="#">Privacy Notice</a><a href="#">Consumer Health Data Privacy
+                    Discloser</a><a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <div class="line-2">&copy; 1996-2026, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
