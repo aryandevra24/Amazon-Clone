@@ -31,17 +31,15 @@ This project focuses on recreating Amazon’s UI layout, styling, and structure 
 
 ## 📂 Project Structure
 
-Amazon-Clone/
-│
-├── index.html
-├── style.css
-├── images/
-│ ├── amazon_logo.png
-│ ├── bg1.jpg
-│ └── other product images
+Amazon-Clone/  
+│  
+├── index.html  
+├── style.css  
+├── images/  
+│ ├── amazon_logo.png  
+│ ├── bg1.jpg  
+│ └── other product images  
 └── README.md
-
-
 
 ---
 
@@ -57,16 +55,21 @@ Amazon-Clone/
    cd Amazon-Clone
    ```
 
-4. Open index.html in your browser.
+3. Open index.html in your browser.
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-📸 Preview
+---
+
+## 📸 Preview
+
 This project visually replicates the Amazon homepage layout for educational purposes only.
 
+---
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-⚠️ Disclaimer
-This project is for educational purposes only.
-Amazon and its logos are trademarks of Amazon.com, Inc.
+## ⚠️ Disclaimer
+
+This project is for educational purposes only.  
+Amazon and its logos are trademarks of Amazon.com, Inc.  
 No copyright infringement intended.
+
+---
